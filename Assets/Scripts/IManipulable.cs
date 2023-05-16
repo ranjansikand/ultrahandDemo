@@ -1,12 +1,16 @@
-// Interface that allows objects to be controlled with telekinesis
+// Interface that allows objects to be controlled
+// Grab: Actions executed on pickup
+// Release: Actions executed when dropped
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public interface IManipulable
 {
-    public void Float(float force);
-    public void Launch(Vector3 target, float force);
-    public void Release();
+    public void Grab(bool byParent = true);
+    public void Release(bool byParent = true);
+    public bool Attach();
+    public void Attach(FixedJoint joint);
+    public void Detach();
+    public void Detach(FixedJoint joint);
+    public void Rotate(float upDown);
 }

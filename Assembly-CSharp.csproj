@@ -41,7 +41,6 @@
      <Compile Include="Assets\Imports\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
      <Compile Include="Assets\Imports\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Scripts\IManipulable.cs" />
-     <Compile Include="Assets\Scripts\Telekinesis.cs" />
      <Compile Include="Assets\Imports\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
      <Compile Include="Assets\Imports\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
      <Compile Include="Assets\Imports\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
@@ -56,8 +55,7 @@
      <Compile Include="Assets\Scripts\Blocks.cs" />
      <Compile Include="Assets\Imports\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
      <Compile Include="Assets\Imports\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-     <Compile Include="Assets\Scripts\Target.cs" />
-     <Compile Include="Assets\Scripts\TargetBoard.cs" />
+     <Compile Include="Assets\Scripts\Ultrahand.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Imports\FirstPersion AIO Pack\README.txt" />
